@@ -7,6 +7,24 @@
 }
 
 /* styles mobile */
+.icon-menu {
+    padding: 8px;
+}
+
+.profile {
+    padding-top: 308px;
+}
+
+.profile-img {
+    width: 20px;
+  margin-left: 9px;
+}
+
+
+i {
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
 
 .wrapper {
     background: dodgerblue;
@@ -14,23 +32,28 @@
 }
 
 .container {
-    background:  lightcoral;
+    background: lightcoral;
     height: calc(100% - 80px);
     display: flex;
 }
 
 .left-menu {
-    background: red;
+    background: black;
     width: 40px;
 }
 
 .main-content {
-    background: green;
+    background: #0f161a;
     width: calc(100% - 40px);
 }
 
+.upgrade-bar {
+    background-color: rgb(17, 16, 22);
+    height: 40px;
+}
+
 .play-nav {
-    background: #ccc;
+    background: #242424;
     height: 80px;
 }
 
