@@ -13,6 +13,18 @@ a {
     color: gray;
 }
 
+li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.nav-list {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .white-font {
     color: white;
     padding-top: 10px;
@@ -44,4 +56,46 @@ a {
     flex-direction: column;
     height: 100vh;
     width: 100%;
+}
+
+.play-nav {
+    background-color: gray;
+    height: 10vh;
+}
+
+/* responsive */
+@media screen and (max-width: 480px) {
+
+    .nav-list,
+    .start-menu,
+    .profile {
+        display: none;
+        width: 49px;
+        height: 90vh;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .left-menu {
+        width: 10%;
+        height: 100vh;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .main-content {
+        background-color: #12121d;
+        height: 100vh;
+        width: 90%;
+    }
+
+    .play-nav {
+        background-color: #1d1d1d;
+        height: 8vh;
+        width: 100%;
+    }
 }
