@@ -16,7 +16,7 @@ body {
 }
 
 .profile {
-    padding-top: 308px;
+    padding-top: 329px;
 }
 
 .profile-img {
@@ -26,6 +26,7 @@ body {
 
 p {
     color: grey;
+    font-style: bold;
 }
 
 
@@ -47,6 +48,17 @@ input {
     height: 4px;
     background-color: gray;
     border-radius: 3%;
+}
+
+.volume-container input {
+    height: 4px;
+    background-color: gray;
+    border-radius: 3%;
+    width: 10px;
+}
+
+.volume-container {
+    padding: 24px;
 }
 
 .player-time span {
@@ -105,12 +117,26 @@ input {
     font-size: 13px;
 }
 
-
+.upgrade {
+    background-color: #111016;
+    color: white;
+    padding: 7px;
+    border-radius: 22px;
+    border: 2px solid white;
+}
 
 .upgrade-bar {
     background-color: rgb(17, 16, 22);
     height: 70px;
+    display: flex;
+    justify-content: flex-end;
 }
+
+.upgrade-container {
+    padding-top: 23px;
+    margin-right: 25px;
+}
+
 
 .card img {
     width: 170px;
@@ -120,7 +146,7 @@ input {
     font-size: 15px;
     color: white;
     margin-top: 7px;
-    
+
 }
 
 .card p {
@@ -128,7 +154,7 @@ input {
 }
 
 .card-section p {
-   
+
     font-size: 10px;
 }
 
@@ -170,8 +196,9 @@ input {
     padding-top: 18px;
 }
 
-.volume-container {
-    width: 33%;
+.volume-section {
+    display: flex;
+
 }
 
 
