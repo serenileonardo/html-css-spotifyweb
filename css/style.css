@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
 /* styles mobile */
 .icon-menu {
     padding: 8px;
@@ -17,7 +21,11 @@
 
 .profile-img {
     width: 20px;
-  margin-left: 9px;
+    margin-left: 9px;
+}
+
+p {
+    color: grey;
 }
 
 
@@ -26,10 +34,31 @@ i {
     padding-bottom: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: white;
+    padding: 20px;
+}
+
 .wrapper {
     background: dodgerblue;
     height: 100vh;
 }
+
+.wrapper-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.favorite {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
 
 .container {
     background: lightcoral;
@@ -45,17 +74,81 @@ i {
 .main-content {
     background: #0f161a;
     width: calc(100% - 40px);
+    overflow: auto;
 }
+
+.main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 18px;
+    gap: 2%;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+
 
 .upgrade-bar {
     background-color: rgb(17, 16, 22);
     height: 40px;
 }
 
+.card img {
+    width: 170px;
+}
+
+.card h3 {
+    font-size: 15px;
+    color: white;
+}
+
+.card p {
+    font-size: 10px;
+}
+
+.card-section p {
+    padding: 20px;
+    font-size: 10px;
+}
+
+.grid-card {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+.card {
+    padding: 15px;
+}
+
+
 .play-nav {
     background: #242424;
     height: 80px;
 }
+
+.title-song {
+    display: flex;
+    gap: 16%;
+    padding-left: 8px;
+}
+
+.img-player {
+    width: 22px;
+    padding-top: 100%;
+}
+
+.nome-brano {
+    color: white;
+    font-size: 9px;
+    padding-top: 18px;
+}
+
+
+
+
+
 
 
 @media screen and (min-width: 768px) {
