@@ -109,7 +109,7 @@ input {
 
 .upgrade-bar {
     background-color: rgb(17, 16, 22);
-    height: 40px;
+    height: 70px;
 }
 
 .card img {
@@ -119,6 +119,8 @@ input {
 .card h3 {
     font-size: 15px;
     color: white;
+    margin-top: 7px;
+    
 }
 
 .card p {
@@ -126,14 +128,14 @@ input {
 }
 
 .card-section p {
-    padding: 20px;
+   
     font-size: 10px;
 }
 
 .grid-card {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 .card {
@@ -168,6 +170,9 @@ input {
     padding-top: 18px;
 }
 
+.volume-container {
+    width: 33%;
+}
 
 
 
