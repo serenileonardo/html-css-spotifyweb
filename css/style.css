@@ -54,6 +54,13 @@ input {
     font-size: 9px;
 }
 
+.icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
 .wrapper {
     background: dodgerblue;
     height: 100vh;
