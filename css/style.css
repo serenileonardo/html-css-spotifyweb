@@ -206,6 +206,80 @@ input {
 
 
 
-@media screen and (min-width: 768px) {
-    /*  dai 768px in su */
+@media screen and (min-width: 580px) {
+    .card {
+        width: 50%;
+    }
+
+    .grid-card {
+        padding-left: 0;
+    }
+
+    .card img {
+        width: 157px;
+    }
+
+    .card p {
+        margin-bottom: 15px;
+    }
+
+    .left-menu {
+        width: 55%;
+    }
+
+    .menu-items {
+        display: none;
+    }
+
+    .icon-menu-biglogo {
+        width: 140px;
+        padding: 15px;
+    }
+
+    .icon-left {
+        width: 20px;
+    }
+
+    .icon-left-container {
+        display: flex;
+        color: grey;
+        text-decoration: none;
+    }
+
+    .playlist-container {
+        color: grey;
+
+    }
+
+    .playlist {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: grey;
+    }
+
+    li {
+        list-style: none;
+        color: grey;
+    }
+
+    .profile {
+        padding: 0;
+        height: 25%;
+    }
+
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .fa-square-plus {
+        width: 30px;
+    }
+
+
 }
