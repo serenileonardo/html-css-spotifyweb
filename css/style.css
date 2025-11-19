@@ -122,6 +122,10 @@ h2 {
     padding: 15px;
 }
 
+.favourite-artist {
+    border-radius: 50%;
+}
+
 
 .play-nav {
     background: #242424;
