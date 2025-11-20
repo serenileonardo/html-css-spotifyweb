@@ -16,12 +16,16 @@ body {
 }
 
 .profile {
-    padding-top: 329px;
+    padding-top: 250px;
 }
 
 .profile-img {
     width: 20px;
     margin-left: 9px;
+}
+
+.playlist {
+    display: none;
 }
 
 p {
@@ -101,6 +105,10 @@ input {
     width: 40px;
 }
 
+.profile {
+    padding-top: 320px;
+}
+
 .main-content {
     background: #0f161a;
     width: calc(100% - 40px);
@@ -175,7 +183,7 @@ input {
 
 .play-nav {
     background: #242424;
-    height: 80px;
+    
 }
 
 .title-song {
@@ -201,6 +209,18 @@ input {
 
 }
 
+.menu-items-small {
+    display: none;
+}
+
+.home-start {
+    display: none;
+}
+
+
+li .fa-square-plus {
+    display: none;
+}
 
 
 
@@ -244,6 +264,7 @@ input {
         display: flex;
         color: grey;
         text-decoration: none;
+        padding-left: 9px;
     }
 
     .playlist-container {
@@ -268,7 +289,8 @@ input {
 
     .profile {
         padding: 0;
-        height: 25%;
+        height: 0%;
+        margin-top: 65px;
     }
 
     .profile-container {
@@ -281,5 +303,38 @@ input {
         width: 30px;
     }
 
+    .menu-items-small {
+        display: flex;
+    }
 
+    .home-start {
+        display: flex;
+    }
+
+
+
+}
+
+@media screen and (min-width: 780px) {
+
+    .left-menu {
+        width: 25%;
+    }
+
+    .main-menu {
+        font-size: 16px;
+    }
+
+    .card-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card img {
+        width: 130px;
+    }
+
+    .grid-card .card {
+        width: 24%;
+    }
 }
