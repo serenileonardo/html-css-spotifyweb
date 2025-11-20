@@ -78,7 +78,7 @@ input {
 }
 
 .wrapper {
-   
+
     height: 100vh;
 }
 
@@ -111,7 +111,7 @@ input {
 
 .card-section p {
     padding: 8px;
-    
+
 }
 
 .main-content {
@@ -156,7 +156,7 @@ input {
 
 
 .card img {
-    width: 170px;
+    width: 100%;
 }
 
 .menu-items-small {
@@ -187,6 +187,7 @@ input {
 
 .card {
     padding: 15px;
+    width: calc(100% / 2);
 }
 
 .favourite-artist {
@@ -248,7 +249,7 @@ li .fa-square-plus {
     }
 
     .card img {
-        width: 157px;
+        width: 100%;
     }
 
     .card p {
@@ -257,7 +258,7 @@ li .fa-square-plus {
 
     .left-menu {
         width: 35%;
-        
+
     }
 
     .menu-items {
@@ -286,7 +287,7 @@ li .fa-square-plus {
     }
 
     .playlist {
-        
+
         margin-left: 10px;
         display: flex;
     }
@@ -303,7 +304,7 @@ li .fa-square-plus {
 
     .profile {
         padding: 0;
-        
+
     }
 
     .profile-container {
@@ -330,5 +331,13 @@ li .fa-square-plus {
 
 @media screen and (min-width: 780px) {
 
-    
+    .card {
+        width: calc(100% / 4);
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .card {
+        width: calc(100% / 6);
+    }
 }
