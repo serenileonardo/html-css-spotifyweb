@@ -78,19 +78,19 @@ input {
 }
 
 .wrapper {
-    background: dodgerblue;
+   
     height: 100vh;
 }
 
 .wrapper-footer {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 .favorite {
     display: flex;
     flex-direction: column;
-    padding: 12px;
+    justify-content: center;
 }
 
 
@@ -103,10 +103,15 @@ input {
 .left-menu {
     background: black;
     width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.profile {
-    padding-top: 320px;
+
+.card-section p {
+    padding: 8px;
+    
 }
 
 .main-content {
@@ -145,9 +150,17 @@ input {
     margin-right: 25px;
 }
 
+.command-container {
+    padding-left: 62px;
+}
+
 
 .card img {
     width: 170px;
+}
+
+.menu-items-small {
+    display: none;
 }
 
 .card h3 {
@@ -183,14 +196,15 @@ input {
 
 .play-nav {
     background: #242424;
-    
+    height: 14vh;
+
 }
 
 .title-song {
     display: flex;
     gap: 5%;
     padding-left: 8px;
-    width: 33%;
+
 }
 
 .img-player {
@@ -209,9 +223,7 @@ input {
 
 }
 
-.menu-items-small {
-    display: none;
-}
+
 
 .home-start {
     display: none;
@@ -244,7 +256,8 @@ li .fa-square-plus {
     }
 
     .left-menu {
-        width: 55%;
+        width: 35%;
+        
     }
 
     .menu-items {
@@ -273,8 +286,9 @@ li .fa-square-plus {
     }
 
     .playlist {
-        margin-top: 50px;
+        
         margin-left: 10px;
+        display: flex;
     }
 
     a {
@@ -289,8 +303,7 @@ li .fa-square-plus {
 
     .profile {
         padding: 0;
-        height: 0%;
-        margin-top: 65px;
+        
     }
 
     .profile-container {
@@ -317,24 +330,5 @@ li .fa-square-plus {
 
 @media screen and (min-width: 780px) {
 
-    .left-menu {
-        width: 25%;
-    }
-
-    .main-menu {
-        font-size: 16px;
-    }
-
-    .card-section {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .card img {
-        width: 130px;
-    }
-
-    .grid-card .card {
-        width: 24%;
-    }
+    
 }
