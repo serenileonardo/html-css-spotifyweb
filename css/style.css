@@ -43,6 +43,21 @@ a {
     text-decoration: none;
 }
 
+.main-menu a:hover {
+    
+    border-bottom: 1px solid greenyellow;
+}
+
+.upgrade-container a:hover {
+    background-color: #3b3a3a;
+}
+
+.card:hover {
+    background-color:#131b20;
+    border-radius: 10%;
+}
+
+
 h2 {
     color: white;
     padding: 20px;
