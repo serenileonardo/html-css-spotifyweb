@@ -44,7 +44,7 @@ a {
 }
 
 .main-menu a:hover {
-    
+
     border-bottom: 1px solid greenyellow;
 }
 
@@ -53,7 +53,7 @@ a {
 }
 
 .card:hover {
-    background-color:#131b20;
+    background-color: #131b20;
     border-radius: 10%;
 }
 
@@ -340,6 +340,25 @@ li .fa-square-plus {
         display: flex;
     }
 
+    .main-menu a:hover {
+
+        border-bottom: 1px solid greenyellow;
+    }
+
+    .upgrade-container a:hover {
+        background-color: #3b3a3a;
+    }
+
+    .card:hover {
+        background-color: #131b20;
+        border-radius: 10%;
+    }
+
+    li:hover {
+        border-bottom: 1px solid greenyellow
+        
+    }
+
 
 
 }
@@ -349,10 +368,48 @@ li .fa-square-plus {
     .card {
         width: calc(100% / 4);
     }
+
+    .main-menu a:hover {
+
+        border-bottom: 1px solid greenyellow;
+    }
+
+    .upgrade-container a:hover {
+        background-color: #3b3a3a;
+    }
+
+    .card:hover {
+        background-color: #131b20;
+        border-radius: 10%;
+    }
+
+     li:hover {
+        border-bottom: 1px solid greenyellow
+        
+    }
 }
 
 @media screen and (min-width: 1100px) {
     .card {
         width: calc(100% / 6);
+    }
+
+    .main-menu a:hover {
+
+        border-bottom: 1px solid greenyellow;
+    }
+
+    .upgrade-container a:hover {
+        background-color: #3b3a3a;
+    }
+
+    .card:hover {
+        background-color: #131b20;
+        border-radius: 10%;
+    }
+
+     li:hover {
+        border-bottom: 1px solid greenyellow
+        
     }
 }
